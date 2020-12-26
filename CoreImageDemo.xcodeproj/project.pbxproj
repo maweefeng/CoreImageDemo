@@ -13,6 +13,8 @@
 		7E0867DD2596F3FE00EC6DCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0867DB2596F3FE00EC6DCB /* Main.storyboard */; };
 		7E0867DF2596F40200EC6DCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E0867DE2596F40200EC6DCB /* Assets.xcassets */; };
 		7E0867E22596F40200EC6DCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E0867E02596F40200EC6DCB /* LaunchScreen.storyboard */; };
+		7E0867EB2596F49E00EC6DCB /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0867EA2596F49E00EC6DCB /* UIImage+.swift */; };
+		7E0867EE25970DE700EC6DCB /* penguin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7E0867ED25970DE700EC6DCB /* penguin.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7E0867DE2596F40200EC6DCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E0867E12596F40200EC6DCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E0867E32596F40200EC6DCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E0867EA2596F49E00EC6DCB /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		7E0867ED25970DE700EC6DCB /* penguin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penguin.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				7E0867D52596F3FE00EC6DCB /* AppDelegate.swift */,
 				7E0867D72596F3FE00EC6DCB /* SceneDelegate.swift */,
 				7E0867D92596F3FE00EC6DCB /* ViewController.swift */,
+				7E0867ED25970DE700EC6DCB /* penguin.jpg */,
+				7E0867EA2596F49E00EC6DCB /* UIImage+.swift */,
 				7E0867DB2596F3FE00EC6DCB /* Main.storyboard */,
 				7E0867DE2596F40200EC6DCB /* Assets.xcassets */,
 				7E0867E02596F40200EC6DCB /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0867E22596F40200EC6DCB /* LaunchScreen.storyboard in Resources */,
+				7E0867EE25970DE700EC6DCB /* penguin.jpg in Resources */,
 				7E0867DF2596F40200EC6DCB /* Assets.xcassets in Resources */,
 				7E0867DD2596F3FE00EC6DCB /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E0867DA2596F3FE00EC6DCB /* ViewController.swift in Sources */,
+				7E0867EB2596F49E00EC6DCB /* UIImage+.swift in Sources */,
 				7E0867D62596F3FE00EC6DCB /* AppDelegate.swift in Sources */,
 				7E0867D82596F3FE00EC6DCB /* SceneDelegate.swift in Sources */,
 			);
